@@ -96,27 +96,23 @@ export default {
 
 <style lang="scss" scope>
 
-.persp-card-container {
-    display: flex;
-    height: 200px;
+$persp: "persp-card";
+
+.#{$persp} {
+    &-container {
+        height: 200px;
+    }
+    &-wrapper {
+        height: 100%;
+    }
+    &-item {
+        display: inline-block;
+    }
+    &-img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
 }
-// /* $persp: "persp-card"; */
-// /* 
-// // .#{$persp} {
-// //     // &-container {
-// //     //     height: 200px;
-// //     // }
-// //     &-wrapper {
-// //         height: 100%;
-// //     }
-// //     &-item {
-// //         display: inline-block;
-// //     }
-// //     &-img {
-// //         width: 100%;
-// //         height: 100%;
-// //         background-size: cover;
-// //     }
-// // } */
 
 </style>
